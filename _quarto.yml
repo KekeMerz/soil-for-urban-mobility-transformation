@@ -23,12 +23,12 @@ website:
     contents:
       - href: index.qmd
         text: Intro
-      - href: aboutme.qmd
-        text: About me
       - href: methodology.qmd
         text: Methodology
       - href: outcome.qmd
         text: Expected outcome
+      - href: aboutme.qmd
+        text: About me
       #- href: plan.qmd
       #  text: Project plan
       #- section: "Methodology"
