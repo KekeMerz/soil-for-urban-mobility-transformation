@@ -4,6 +4,8 @@ description-meta: ""
 pagetitle: "How to measure 'soil'?"
 ---
 
+![Methdology overview of this research project](images/soil-figure4.png){#fig-methodology}
+
 # Definition of targets and constraints in Japan and Germany 
 In a literature analysis, both targets and constraints for the UMT are identified via published strategies in mobility and transformation strategies as well as global contracts (e.g. Paris Agreement of the UN COP21). This includes a comparison of the applied sustainability definitions (e.g. social, ecological, economical). The analysis will lead to a first overview of status quo and will be further expanded in the course of the study.
 

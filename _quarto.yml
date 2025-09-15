@@ -22,11 +22,15 @@ website:
     style: docked
     contents:
       - href: index.qmd
-        text: Home
+        text: Intro
       - href: aboutme.qmd
         text: About me
-      - href: intro.qmd
-        text: Intro
+      - href: methodology.qmd
+        text: Methodology
+      - href: outcome.qmd
+        text: Expected outcome
+      #- href: plan.qmd
+      #  text: Project plan
       #- section: "Methodology"
       #  contents:
       #    - href: def-targets-contraints.qmd
