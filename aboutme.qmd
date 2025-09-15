@@ -5,5 +5,3 @@ pagetitle: "About me"
 ---
 
 Keke P. Merz
-
-maybe link CV here etc.
