@@ -5,7 +5,7 @@ project:
 website:
   title: "Fertile soil"
   favicon: images/icon.png
-  repo-url: "https://github.com/kekemerz/eitcourse-keke/"
+  #repo-url: "https://github.com/kekemerz/soil-for-urban-mobility-transformation/"
   repo-actions: [issue]
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -15,10 +15,10 @@ website:
     logo: "images/tsrtr.png"
     pinned: true
     align: center
-    tools:
-      - icon: github
-        href: https://github.com/kekemerz/eitcourse-keke/
-        text: GitHub
+    #tools:
+    #  - icon: github
+    #    href: https://github.com/kekemerz/eitcourse-keke/
+    #    text: GitHub
     style: docked
     contents:
       - href: index.qmd
@@ -39,15 +39,14 @@ website:
       #      text: Local interviews and workshops
       #    - href: analysis.qmd
       #      text: Analysis
-      #- href: prerequisites.qmd
-      #  text: Expected outcome
+
 
 format:
   html:
     theme: lux
     # css: styles.css
     toc: true
-    title-prefix: "Data Science Course - "
+    title-prefix: "Proposal - "
     number-sections: true
     author-meta: "Keke P. Merz"
     date-meta: "2025"
