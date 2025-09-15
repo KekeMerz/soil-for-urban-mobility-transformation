@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Fertile soil"
+  favicon: images/icon.png
+  repo-url: "https://github.com/kekemerz/eitcourse-keke/"
+  repo-actions: [issue]
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "Materials by [Keke P. Merz](https://www.gov.sot.tum.de/en/mp/team/keke-merz/), 2025."
+  sidebar:
+    background: primary
+    logo: "images/tsrtr.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/kekemerz/eitcourse-keke/
+        text: GitHub
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: aboutme.qmd
+        text: About me
+      - href: intro.qmd
+        text: Intro
+      #- section: "Methodology"
+      #  contents:
+      #    - href: def-targets-contraints.qmd
+      #      text: Definition of targets and constraints in Japan and Germany
+      #    - href: peoplemap.qmd
+      #      text: Local interviews and workshops
+      #    - href: analysis.qmd
+      #      text: Analysis
+      #- href: prerequisites.qmd
+      #  text: Expected outcome
+
+format:
+  html:
+    theme: lux
+    # css: styles.css
+    toc: true
+    title-prefix: "Data Science Course - "
+    number-sections: true
+    author-meta: "Keke P. Merz"
+    date-meta: "2025"
+    copyright: "© 2025 Keke P. Merz"
+    #license: "CC BY-SA"
+
+execute:
+  freeze: false
+  cache: true
